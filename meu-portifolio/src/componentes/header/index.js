@@ -9,10 +9,10 @@ const Header = () => {
 
             <div className='nav'>
                 <ul>
-                    <li>Inicío</li>
-                    <li>Sobre</li>
-                    <li>Projetos</li>
-                    <li>Habilidades</li>
+                    <li><a href="#inicio"  target='_self'>Inicío</a></li>
+                    <li><a href="#sobre" target='_self'>Sobre</a></li>
+                    <li><a href="#" target='_self'>Projetos</a></li>
+                    <li><a href="#" target='_self'>Habilidades</a></li>
                 </ul>
             </div>
         </header>

@@ -2,12 +2,12 @@ import './Inicio.css';
 
 const Inicio = () => {
     return (
-        <section className='inicio'>
+        <section className='inicio' id='inicio'>
             <div className='titulo'>
                 <h1>Olá, eu sou<br/> <span>Guilherme Araujo</span><br/>Desenvolvedor Front-End</h1>
                 <div className='btn'>
-                    <a href="https://github.com/GuilhermeAraujo062" target='_blank'>Github</a>
-                    <a href="https://www.linkedin.com/in/guilherme62araujo/" target='_blank'>Linkedin</a>
+                    <a href="https://github.com/GuilhermeAraujo062" target='_blank' rel='noreferrer'>Github</a>
+                    <a href="https://www.linkedin.com/in/guilherme62araujo/" target='_blank' rel='noreferrer'>Linkedin</a>
                 </div>
             </div>
 

@@ -1,11 +1,13 @@
-import Header from './componentes/header';
-import Inicio from './componentes/inicio';
+import Header from './componentes/Header';
+import Inicio from './componentes/Inicio';
+import Sobre from './componentes/Sobre';
 
 function App() {
   return (
     <div className="App">
       <Header/>
       <Inicio/>
+      <Sobre/>
     </div>
   );
 }

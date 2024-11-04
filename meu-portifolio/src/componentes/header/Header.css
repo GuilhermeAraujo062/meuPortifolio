@@ -27,6 +27,11 @@
     cursor: pointer;
 }
 
-.nav ul li:hover {
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
     color:#00b7ff;
 }
