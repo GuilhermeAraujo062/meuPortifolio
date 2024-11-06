@@ -1,0 +1,45 @@
+
+
+.tecnologias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #292929;
+    color: white;
+}
+
+.icones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+.icones div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    font-size: 10em;
+    color: #00b7ff;
+}
+
+.icon-html{
+    color: orange;
+}
+
+.icon-css {
+    color: #004CE8;
+}
+
+.icon-js {
+    color: yellow;
+}
+
+.icon-node {
+    color: #82CD2A;
+}

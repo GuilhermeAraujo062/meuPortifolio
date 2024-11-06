@@ -2,6 +2,7 @@ import Header from './componentes/Header';
 import Inicio from './componentes/Inicio';
 import Sobre from './componentes/Sobre';
 import Projetos from './componentes/Projetos';
+import Tecnologias from './componentes/Tecnologias';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Inicio/>
       <Sobre/>
       <Projetos/>
+      <Tecnologias/>
     </div>
   );
 }
