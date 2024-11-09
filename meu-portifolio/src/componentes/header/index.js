@@ -1,4 +1,5 @@
 import './Header.css';
+import { TbMenu2 } from "react-icons/tb";
 
 const Header = () => {
     return (
@@ -15,6 +16,8 @@ const Header = () => {
                     <li><a href="#tecnologias" target='_self' rel='noreferrer'>Tecnologias</a></li>
                 </ul>
             </div>
+
+            <div className='menu-burger'><TbMenu2/></div>
         </header>
     )
 }
