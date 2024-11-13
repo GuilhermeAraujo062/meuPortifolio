@@ -6,14 +6,15 @@ import Tecnologias from './componentes/Tecnologias';
 import Footer from './componentes/Footer'
 
 function App() {
+  
   return (
     <div className="App">
-      <Header/>
-      <Inicio/>
-      <Sobre/>
-      <Projetos/>
-      <Tecnologias/>
-      <Footer/>
+      <Header />
+      <Inicio />
+      <Sobre />
+      <Projetos />
+      <Tecnologias />
+      <Footer />
     </div>
   );
 }
