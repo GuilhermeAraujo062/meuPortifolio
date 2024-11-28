@@ -1,22 +1,21 @@
-import './Header.css';
-import { TbMenu2 } from "react-icons/tb";
+import "./MenuMobile.css";
+import { IoMdClose } from "react-icons/io";
 
-const Header = () => {
+const MenuMobile = ({menuIsVisible, setMenuIsVisible}) => {
     return (
-        <header className='header'>
-            <div className='logo'>
-                <p>&lt;ga/&gt;</p>
+        <div className='menu-burger' id='menuBurger'>
+            <div className="svg">
+                <IoMdClose size={45}/>
             </div>
 
-            <div className='burger'><TbMenu2 size={45}/></div>
-            <nav>
+            <nav className="nav-mobile">
                 <a href="#inicio" target='_self' rel='noreferrer'>Inicío</a>
                 <a href="#sobre" target='_self' rel='noreferrer'>Sobre</a>
                 <a href="#projetos" target='_self' rel='noreferrer'>Projetos</a>
                 <a href="#tecnologias" target='_self' rel='noreferrer'>Tecnologias</a>
             </nav>
-        </header>
+        </div>
     )
 }
 
-export default Header;
+export default MenuMobile;

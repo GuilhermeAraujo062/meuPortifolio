@@ -1,3 +1,4 @@
+import MenuMobile from './componentes/MenuMobile';
 import Header from './componentes/Header';
 import Inicio from './componentes/Inicio';
 import Sobre from './componentes/Sobre';
@@ -9,6 +10,7 @@ function App() {
   
   return (
     <div className="App">
+      <MenuMobile/>
       <Header />
       <Inicio />
       <Sobre />
