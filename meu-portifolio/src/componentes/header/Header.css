@@ -43,13 +43,13 @@ nav a:hover {
     color:#00b7ff;
 }
 
-.burger {
+.mobile {
     display: none;
     color: white;
 }
 
 @media (max-width: 667px) {
-    .burger{
+    .mobile{
         display: block;
     }
 

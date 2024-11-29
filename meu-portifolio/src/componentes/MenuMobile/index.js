@@ -1,20 +1,18 @@
-import "./MenuMobile.css";
+import {Container} from "./style";
 import { IoMdClose } from "react-icons/io";
 
-const MenuMobile = ({menuIsVisible, setMenuIsVisible}) => {
+const MenuMobile = ({ menuIsVisible, setMenuIsVisible }) => {
     return (
-        <div className='menu-burger' id='menuBurger'>
-            <div className="svg">
-                <IoMdClose size={45}/>
-            </div>
+        <Container isVisible={menuIsVisible}>
 
-            <nav className="nav-mobile">
+            <IoMdClose size={45} onClick={() => setMenuIsVisible(false)}/>
+            <nav>
                 <a href="#inicio" target='_self' rel='noreferrer'>Inicío</a>
                 <a href="#sobre" target='_self' rel='noreferrer'>Sobre</a>
                 <a href="#projetos" target='_self' rel='noreferrer'>Projetos</a>
                 <a href="#tecnologias" target='_self' rel='noreferrer'>Tecnologias</a>
             </nav>
-        </div>
+        </Container>
     )
 }
 

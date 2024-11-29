@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import MenuMobile from './componentes/MenuMobile';
 import Header from './componentes/Header';
 import Inicio from './componentes/Inicio';
@@ -7,11 +8,16 @@ import Tecnologias from './componentes/Tecnologias';
 import Footer from './componentes/Footer'
 
 function App() {
+
+  const [menuIsVisible, setMenuIsVisible] = useState(false);
   
   return (
     <div className="App">
-      <MenuMobile/>
-      <Header />
+      <MenuMobile 
+        menuIsVisible={menuIsVisible}
+        setMenuIsVisible={setMenuIsVisible}
+      />
+      <Header setMenuIsVisible={setMenuIsVisible}/>
       <Inicio />
       <Sobre />
       <Projetos />
