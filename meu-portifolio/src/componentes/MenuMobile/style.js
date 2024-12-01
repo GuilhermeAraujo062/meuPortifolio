@@ -20,12 +20,16 @@ export const Container = styled.section`
 
     opacity: 0;
     pointer-events: none;
-    
 
+    transition: .5s;
+    transform: translateY(50px);
+    
 > svg {
     position: absolute;
     top: 1rem;
     right: 1rem;
+    transform: rotate(45deg);
+    transition: .7s;
 }
 
 > nav {
@@ -35,11 +39,22 @@ export const Container = styled.section`
     align-items: center;
     gap: 2rem;
     color: white;
+    transform: scale(0.7);
+    transition: .7s;
 }
 
 ${({ isVisible }) => isVisible && css`
     opacity: 1;
-    pointer-events: auto;  
+    pointer-events: auto;
+    transform: translateY(0px);
+
+    > svg {
+        transform: rotate(0deg);
+    }
+
+    > nav {
+        transform: scale(1);
+    }
 `}
 
 `;
