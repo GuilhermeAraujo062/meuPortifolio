@@ -40,7 +40,9 @@
     border-radius: 2px;
 }
 
-@media (max-width: 668px) {
+
+
+@media (max-width: 860px) {
 
     .projetos {
         height: 100vh;
@@ -51,5 +53,19 @@
         display: grid;
         grid-template-columns: 1fr ;
         gap: 40px;
+    }
+}
+
+@media (max-width: 418px) {
+    .projetos-container div img {
+        width: 200px;
+        height: 100px;
+    }
+
+    .projetos .btn {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        text-align: center ;
     }
 }

@@ -60,7 +60,7 @@
     background-color: #292929;
 }
 
-@media (max-width: 667px) {
+@media (max-width: 768px) {
     .img {
         display: none;
     }
