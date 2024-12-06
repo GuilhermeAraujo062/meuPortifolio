@@ -1,0 +1,38 @@
+.container {
+    align-items: center;
+    padding: 100px 0;
+    background-color: #292929;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icons {
+    font-size: 10em;
+    color: #00b7ff;
+}
+
+.icon-html{
+    color: orange;
+}
+
+.icon-css {
+    color: #004CE8;
+}
+
+.icon-js {
+    color: yellow;
+}
+
+.icon-node {
+    color: #82CD2A;
+}

@@ -4,8 +4,8 @@ import Header from './componentes/Header';
 import Inicio from './componentes/Inicio';
 import Sobre from './componentes/Sobre';
 import Projetos from './componentes/Projetos';
-import Tecnologias from './componentes/Tecnologias';
 import Footer from './componentes/Footer'
+import TecnologiasSwiper from './componentes/TecnologiasSwiper';
 
 function App() {
 
@@ -21,7 +21,7 @@ function App() {
       <Inicio />
       <Sobre />
       <Projetos />
-      <Tecnologias />
+      <TecnologiasSwiper />
       <Footer />
     </div>
   );
