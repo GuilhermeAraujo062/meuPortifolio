@@ -19,8 +19,8 @@ function App() {
       />
       <Header setMenuIsVisible={setMenuIsVisible}/>
       <Inicio />
-      <Sobre />
       <Projetos />
+      <Sobre />
       <TecnologiasSwiper />
       <Footer />
     </div>

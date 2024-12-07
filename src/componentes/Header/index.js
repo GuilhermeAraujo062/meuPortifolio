@@ -10,8 +10,8 @@ const Header = ({ setMenuIsVisible }) => {
 
             <nav>
                 <a href="#inicio" target='_self' rel='noreferrer'>Inicío</a>
-                <a href="#sobre" target='_self' rel='noreferrer'>Sobre</a>
                 <a href="#projetos" target='_self' rel='noreferrer'>Projetos</a>
+                <a href="#sobre" target='_self' rel='noreferrer'>Sobre</a>
                 <a href="#tecnologias" target='_self' rel='noreferrer'>Tecnologias</a>
             </nav>
 

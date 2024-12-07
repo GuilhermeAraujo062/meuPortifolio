@@ -5,8 +5,8 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
-    background-color: #292929;
+    padding: 120px;
+    background-color: #111111;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: justify;
     font-size: 1.2em;
     color: white;
     width: 500px;
@@ -26,4 +26,16 @@
 
 .sobre-mim h2 {
     padding-bottom: 50px;
+}
+
+@media (max-width: 640px) {
+    .sobre-mim {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 1.2em;
+        color: white;
+        width: 500px;
+    }
 }
