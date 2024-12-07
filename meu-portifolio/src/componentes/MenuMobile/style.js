@@ -3,7 +3,6 @@ import styled, { css } from "styled-components";
 export const Container = styled.section`
     position: absolute;
     backdrop-filter: blur(3px);
-    width: 100vw;
     height: 100vh;
     top: 0;
     left: 0;
@@ -30,6 +29,7 @@ export const Container = styled.section`
     right: 1rem;
     transform: rotate(45deg);
     transition: .7s;
+    cursor: pointer;
 }
 
 > nav {

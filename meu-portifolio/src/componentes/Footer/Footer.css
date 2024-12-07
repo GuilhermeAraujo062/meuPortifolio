@@ -45,3 +45,9 @@
         color: white;
     }
 }
+
+@media (max-width: 490px) {
+    .contatos h3 {
+        display: none;
+    }
+}
