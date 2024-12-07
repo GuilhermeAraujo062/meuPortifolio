@@ -7,7 +7,7 @@ const Projetos = () => {
 
             <div className='projetos-container'>
                 <div>
-                    <img src='../imagens/easybank.jpg' alt='imagem do projeto'></img>
+                    <img src='imagens/easybank.jpg' alt='imagem do projeto'></img>
                     <p>Easybank</p>
                     <p>Tecnologias usadas no projeto: HTML, CSS, JavaScript</p>
                     <div className='btn'>
@@ -18,7 +18,7 @@ const Projetos = () => {
 
                 <div className='projeto'>
                     <div>
-                        <img src='../imagens/Grey.png' alt='imagem do projeto'></img>
+                        <img src='imagens/Grey.png' alt='imagem do projeto'></img>
                         <p>Em breve</p>
                         <p>Tecnologias usadas no projeto:</p>
                         <div className='btn'>
@@ -30,7 +30,7 @@ const Projetos = () => {
 
                 <div className='projeto'>
                     <div>
-                        <img src='../imagens/Grey.png' alt='imagem do projeto'></img>
+                        <img src='imagens/Grey.png' alt='imagem do projeto'></img>
                         <p>Em breve</p>
                         <p>Tecnologias usadas no projeto:</p>
                         <div className='btn'>
@@ -42,7 +42,7 @@ const Projetos = () => {
 
                 <div className='projeto'>
                     <div>
-                        <img src='../imagens/Grey.png' alt='imagem do projeto'></img>
+                        <img src='imagens/Grey.png' alt='imagem do projeto'></img>
                         <p>Em breve</p>
                         <p>Tecnologias usadas no projeto:</p>
                         <div className='btn'>
