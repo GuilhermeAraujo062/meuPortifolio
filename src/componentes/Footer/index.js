@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='contatos'>
                 <h3>Entre em contato comigo:</h3>
                 <a href='https://www.linkedin.com/in/guilherme62araujo/' target='_blank' rel='noreferrer'><FaLinkedin /></a>
-                <a href='mailto:contatoguilherme@gmail.com' target='_blank' rel='noreferrer'><MdEmail /></a>
+                <a href='mailto:contatoguilherme3110@gmail.com' target='_blank' rel='noreferrer'><MdEmail /></a>
                 <a href='https://wa.me/62993190052' target='_blank' rel='noreferrer'><IoLogoWhatsapp /></a>
             </div>
 
